@@ -1,0 +1,9 @@
+# API server (no model weights, no PyTorch here: install those per the README)
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.7,<3.0
+python-multipart>=0.0.9      # only used when ENABLE_VOICE_CLONING=true
+numpy>=1.26
+# Model stack - install separately, matching your GPU (see README):
+#   pip install torch torchaudio   (CUDA build from pytorch.org)
+#   pip install omnivoice

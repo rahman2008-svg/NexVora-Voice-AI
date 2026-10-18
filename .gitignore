@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+tmp_audio/
+.pytest_cache/
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+# Model weights & audio - never commit these
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+*.wav
+*.mp3
+.cache/
+huggingface/
